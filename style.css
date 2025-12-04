@@ -126,7 +126,7 @@ header img {
 
 .menu a {
     font-size: 25px;
-    color: var(--vermelho);
+    color: var(--fundo-size);
     text-decoration: none;
     /* text-transform: uppercase; */
     font-family: "Inter", sans-serif;
@@ -189,7 +189,7 @@ header img {
 
     nav.menu {
         width: 200px;
-        padding: 0px 30px;
+        padding: 0px 1px;
         flex-direction: column;
         justify-content: space-around;
         gap: 15px;
@@ -203,4 +203,56 @@ header img {
     .menu a {
         color: var(--branco);
     }
+}
+
+.Banner {
+    height: 100vh;
+    background-image: url(./img/torta\ de\ morango\ 01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 120px;
+    /* background-color: aqua; */
+}
+
+#sobre>div{
+
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+#sobre>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#sobre>div>div>img{
+    width: 350px;
+}
+#sobre h2 {
+    margin-right: 5px;
+}
+
+#sobre img {
+    max-width: 460px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+#sobre p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    color: var(--preto);
 }
