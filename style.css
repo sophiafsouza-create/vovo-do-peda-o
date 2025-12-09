@@ -70,7 +70,9 @@ z-index: 1;
 position: fixed;
 width: 100WV; */
 
-
+body{
+    background-color: #f3f2f2
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -215,16 +217,16 @@ header img {
 
 
 
-#sobre {
+ #sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 80px;
     margin-bottom: 120px;
-    /* background-color: aqua; */
-}
+     /* background-color: aqua;  */
+} 
 
-#sobre>div{
+ #sobre>div{
 
     display: flex;
     gap: 20px;
@@ -238,9 +240,9 @@ header img {
     gap: 10px;
 }
 #sobre>div>div>img{
-    width: 350px;
+    width: 350px; 
 }
-#sobre h2 {
+ #sobre h2 {
     margin-right: 5px;
 }
 
@@ -250,9 +252,67 @@ header img {
     border-radius: 40px;
 }
 
+
 #sobre p {
     font-size: 20px;
     text-align: justify;
-    margin-top: 30px;
-    color: var(--preto);
+    margin-top: 110px;
+   color: #000;
+} 
+
+ 
+.titulo {
+   width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  color: var(--bege);
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.titulo::after {
+  content: "";
+  width:380px;
+  height: 2px;
+  background-color: var(--amarelo);
+  display: block;
+  margin: 2px auto 0;
+  
+}
+
+.subtitulo{
+ font-size: 25px;
+  font-family: "Georgia", serif;
+  color: var(--bege);
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+.subtitulo::after{
+  content: "";
+  width: 240px;
+  height: 2px;
+  background-color: var(--amarelo);
+  display: block;
+  margin: 2px auto 0;
+}
+.subtitulo-vovo {
+     font-size: 25px;
+  font-family: "Georgia", serif;
+  color: var(--bege);
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.subtitulo-vovo::after{
+    content: "";
+  width: 180px;
+  height: 2px;
+  background-color: var(--amarelo);
+  display: block;
+  margin: 2px auto 0;
 }
