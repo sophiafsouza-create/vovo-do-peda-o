@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #f3f2f2
 }
 
@@ -145,32 +145,35 @@ header img {
 
 
 
- #sobre {
+#sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 80px;
     margin-bottom: 120px;
-     /* background-color: aqua;  */
-} 
+    /* background-color: aqua;  */
+}
 
- #sobre>div{
+#sobre>div {
 
     display: flex;
     gap: 20px;
     width: 50%;
 }
-#sobre>div>div{
+
+#sobre>div>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-#sobre>div>div>img{
-    width: 350px; 
+
+#sobre>div>div>img {
+    width: 350px;
 }
- #sobre h2 {
+
+#sobre h2 {
     margin-right: 5px;
 }
 
@@ -185,71 +188,72 @@ header img {
     font-size: 20px;
     text-align: justify;
     margin-top: 110px;
-   color: #000;
-} 
+    color: #000;
+}
 
- 
+
 .titulo {
-   width: 100%;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Georgia", serif;
-  color: var(--bege);
-  position: relative;
-  margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Georgia", serif;
+    color: var(--bege);
+    position: relative;
+    margin-bottom: 40px;
 }
 
 .titulo::after {
-  content: "";
-  width:380px;
-  height: 2px;
-  background-color: var(--amarelo);
-  display: block;
-  margin: 2px auto 0;
-  
-}
-
-.subtitulo{
- font-size: 25px;
-  font-family: "Georgia", serif;
-  color: var(--bege);
-  position: relative;
-  margin-bottom: 20px;
-  text-align: left;
-
-}
-
-.subtitulo::after{
-  content: "";
-  width: 240px;
-  height: 2px;
-  background-color: var(--amarelo);
-  display: block;
-  margin: 2px auto 0;
-}
-.subtitulo-vovo {
-     font-size: 25px;
-  font-family: "Georgia", serif;
-  color: var(--bege);
-  position: relative;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.subtitulo-vovo::after{
     content: "";
-  width: 180px;
-  height: 2px;
-  background-color: var(--amarelo);
-  display: block;
-  margin: 2px auto 0;
+    width: 380px;
+    height: 2px;
+    background-color: var(--amarelo);
+    display: block;
+    margin: 2px auto 0;
+
+}
+
+.subtitulo {
+    font-size: 25px;
+    font-family: "Georgia", serif;
+    color: var(--bege);
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.subtitulo::after {
+    content: "";
+    width: 240px;
+    height: 2px;
+    background-color: var(--amarelo);
+    display: block;
+    margin: 2px auto 0;
+}
+
+.subtitulo-vovo {
+    font-size: 25px;
+    font-family: "Georgia", serif;
+    color: var(--bege);
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.subtitulo-vovo::after {
+    content: "";
+    width: 180px;
+    height: 2px;
+    background-color: var(--amarelo);
+    display: block;
+    margin: 2px auto 0;
 }
 
 
 /* banner */
 
 
-.img-carrossel{
+.img-carrossel {
 
     background-image: url(./img/calda\ de\ chocolate.png);
     height: 100vh;
@@ -258,15 +262,15 @@ header img {
     background-size: cover;
 }
 
-.saiba-mais{
+.saiba-mais {
     display: flex;
     justify-content: end;
-    
+
 }
 
 .saiba-mais h3 {
     color: var(--branco);
-    background-color:var(--vermelho);
+    background-color: var(--vermelho);
     border-radius: 10px;
     height: 60px;
     width: 140px;
@@ -274,19 +278,19 @@ header img {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-right:50px ;
+    margin-right: 50px;
 }
 
-.saiba-mais :hover{
+.saiba-mais :hover {
     transition: 0.4s;
- color: #D1AD54;
+    color: #D1AD54;
 }
 
 
 .texto-carrossel {
-   color: #fff;
-   font-size: 40px;
-padding-top: 700px;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 700px;
 
 }
 
@@ -306,16 +310,16 @@ padding-top: 700px;
     padding: 100px; */
 }
 
-#contato .titulo{
+#contato .titulo {
     justify-content: center;
     margin-bottom: 55px;
 }
 
-#contato h2{
+#contato h2 {
     margin-left: 5px;
 }
 
- #contato form{
+#contato form {
     max-width: 600px;
     width: 90%;
 
@@ -330,13 +334,15 @@ padding-top: 700px;
     background-color: var(--contato);
 
     color: var(--preto);
-    
+
     font-size: 17px;
-} 
+}
+
 .conteudo-contato form {
     width: 600px;
 }
-.campo{
+
+.campo {
     width: 60%;
     text-align: left;
     display: flex;
@@ -354,9 +360,10 @@ padding-top: 700px;
     margin-bottom: 30px;
 }
 
-.campo input{
+.campo input {
     height: 40px;
-     color: var(--preto);  /* cor da escrita */
+    color: var(--preto);
+    /* cor da escrita */
     background-color: var(--branco);
     border: none;
     border-radius: 4px;
@@ -364,7 +371,7 @@ padding-top: 700px;
     outline: none;
 }
 
-.campo-descricao textarea{
+.campo-descricao textarea {
     color: var(--preto);
     background-color: var(--branco);
     border: none;
@@ -375,31 +382,33 @@ padding-top: 700px;
 }
 
 .campo label,
-.campo-descricao label{
+.campo-descricao label {
     margin-bottom: 15px;
 }
 
 .campo input,
-.campo-descricao textarea{
-    
+.campo-descricao textarea {
+
     font-size: 17px;
 }
 
 .campo input::placeholder,
-.campo-descricao textarea::placeholder{
+.campo-descricao textarea::placeholder {
     color: #A0A0A0;
 }
 
 .campo input:focus,
-.campo-descricao textarea:focus{
-   outline: 2px solid var(--amarelo); /* linha/contorno */
+.campo-descricao textarea:focus {
+    outline: 2px solid var(--amarelo);
+    /* linha/contorno */
 }
 
-#contato form button{
+#contato form button {
     height: 40px;
     width: 60%;
 
-    background-color: var(--vermelho);   /*botao inviar */
+    background-color: var(--vermelho);
+    /*botao inviar */
     color: var(--branco);
     border: none;
     border-radius: 4px;
@@ -408,12 +417,12 @@ padding-top: 700px;
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 500ms;
-    
+
 }
 
-    .mapa img{
-height: 600px;
-    }
+.mapa img {
+    height: 600px;
+}
 
 /* ---------footer ---------- */
 
@@ -454,28 +463,28 @@ footer img {
     cursor: pointer;
 }
 
-.icons{
+.icons {
     max-height: 100px;
 }
+
 .copy {
     text-align: center;
     margin-top: 30px;
     font-size: 14px;
 }
 
-.conteudo-contato{
-display: flex;
-flex-direction: row;
-width: 80%;
-justify-content: space-evenly;
+.conteudo-contato {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
 }
 
-.espaco_contato{
-width: 1700px;
+.espaco_contato {
+    width: 1700px;
 }
 
-.local h3{
+.local h3 {
     color: #D1AD54;
-  
-}
 
+}
