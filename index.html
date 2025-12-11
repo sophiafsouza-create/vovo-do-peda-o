@@ -98,7 +98,7 @@
 
                 <div class="texto-carrossel">
 
-                    <h2>Descubra o chef confeiteiro 
+                    <h2>Descubra o chef confeiteiro
                         que existe em você!</h2>
                     <p>Curso de Confeitaria – a partir dos 12 anos!</p>
 
@@ -110,33 +110,68 @@
 
 
         <!-- Contato -->
-<section id="contato">
+        <section id="contato" class="espaco_contato">
             <div class="titulo">
                 <span>Entre em</span>
                 <h2>Contato</h2>
             </div>
+            <div class="conteudo-contato">
+                <form action="">
+                    <div class="campo">
+                        <label for="campo-nome">Qual é o seu nome?</label>
+                        <input type="text" id="campo-nome" placeholder="Digite o seu nome...">
+                    </div>
 
-            <form action="">
-                <div class="campo">
-                    <label for="campo-nome">Qual é o seu nome?</label>
-                    <input type="text" id="campo-nome" placeholder="Digite o seu nome...">
-                </div>
+                    <div class="campo">
+                        <label for="campo-email">Em qual e-mail podemos
+                            te responder?</label>
+                        <input type="email" id="campo-email" placeholder="Digite seu e-mail..">
+                    </div>
 
-                <div class="campo">
-                    <label for="campo-email">Em qual e-mail podemos
-                        te responder?</label>
-                    <input type="email" id="campo-email" placeholder="Digite seu e-mail..">
-                </div>
+                    <div class="campo-descricao">
+                        <label for="campo-texto">Como podemos te ajudar?
+                        </label>
+                        <textarea id="campo-texto" placeholder="Informe sua duvida..." cols="30" rows="10"></textarea>
+                    </div>
 
-                <div class="campo-descricao">
-                    <label for="campo-texto">Como podemos te ajudar?
-                    </label>
-                    <textarea id="campo-texto" placeholder="Informe sua duvida..." cols="30"
-                        rows="10"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="mapa">
+                    <img src="./img/maps.png" alt="imagem do mapa">
+                    <div class="local">
+                        <h3>Estamos em:</h3>
+                        <p>Rua Niterói, 180 - centro de SCS</p>
+
+                    </div>
+                    
                 </div>
-                <button type="submit">Enviar</button>
-            </form>
+            </div>
         </section>
+        <footer class="footer">
+
+            <div class="footer-content">
+                <img src="./img/17-vovo.png" alt="logo vovo">
+
+                <div class="contato">
+                    <h3>Contato:</h3>
+                    <p>(11) 99999-9999</p>
+                    <p> (11) 9999-999</p>
+                    <p> @Vovodopedacoconfeitaria</p>
+                </div>
+
+                <div class="redes">
+                    <h3>Redes sociais:</h3>
+                    <div class="icons">
+                        <img src="./icones/tiktok-logo.svg" alt="tiktok">
+                        <img src="./icones/whatsapp-logo.svg" alt="WhatsApp">
+                        <img src="./icones/youtube-logo.svg" alt="YouTube">
+                        <img src="./icones/instagram-logo.svg" alt="instagram">
+                    </div>
+                </div>
+            </div>
+
+            <p class="copy">©2025 Cada pedaço uma lembrança de amor</p>
+        </footer>
 
     </main>
 
