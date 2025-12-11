@@ -1,75 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --branco: #fff;
-    --preto: #000;
-    --fundo-size: #f3f2f2;
-    --vermelho: #5E1E13;
-    --amarelo: #D1AD54;
-    --bege: #B7A48E;
-}
-
-.espaco_lateral {
-    width: 80vw;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-/*----------menu---------*/
-
-/* header {
-    height: 165px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    width: 155px;
-
-}
-
-.menu {
-    max-width: 700px;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu a {
-    font-size: 20px;
-    color: #D1AD54;
-    text-decoration: none;
-    /* text-transform: uppercase; */
-/* font-family: "inter", sans-serif; */
-
-/* .menu a:hover{
-   color: #5E1E13;   
-   /* muda a cor das palavras */
-
-
-/* hamburguer */
-
-
-
-
-
-
-
-/* 
-
-@media screen and (max-windth: 768px){
-#sombra{
-backgraund-color: var(--caramelo);
-backdrop-filter:  blur(10px);
-z-index: 1;
-position: fixed;
-width: 100WV; */
-
 body{
     background-color: #f3f2f2
 }
@@ -428,7 +356,7 @@ padding-top: 700px;
 
 .campo input{
     height: 40px;
-    color: var(--amarelo);
+     color: var(--preto);  /* cor da escrita */
     background-color: var(--branco);
     border: none;
     border-radius: 4px;
@@ -464,14 +392,14 @@ padding-top: 700px;
 
 .campo input:focus,
 .campo-descricao textarea:focus{
-    outline: 2px solid var(--vermelho);
+   outline: 2px solid var(--amarelo); /* linha/contorno */
 }
 
 #contato form button{
     height: 40px;
     width: 60%;
 
-    background-color: var(--amarelo);
+    background-color: var(--vermelho);   /*botao inviar */
     color: var(--branco);
     border: none;
     border-radius: 4px;
@@ -480,6 +408,7 @@ padding-top: 700px;
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 500ms;
+    
 }
 
     .mapa img{
@@ -544,3 +473,9 @@ justify-content: space-evenly;
 .espaco_contato{
 width: 1700px;
 }
+
+.local h3{
+    color: #D1AD54;
+  
+}
+
